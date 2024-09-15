@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.play-ground {
+    min-width: 40vw;
+    min-height: 70vh;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 8fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+.bubbles ,.user{
+    border-radius: 50%;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.black {
+    background-color: rgb(23, 22, 22);
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+.green {
+    background-color: green;
+}
